@@ -24,7 +24,7 @@ public class AppTest {
 
   @Test
   public void testLoginW() throws Exception {
-    driver.get(baseUrl + "/default/coframe/auth/login/login.jsp");
+    driver.get(baseUrl + "default/coframe/auth/login/login.jsp");
     driver.findElement(By.id("userId$text")).clear();
     driver.findElement(By.id("userId$text")).sendKeys("duanm");
     driver.findElement(By.id("password$text")).clear();
